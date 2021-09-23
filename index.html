@@ -375,32 +375,24 @@
             <div class="podpiska">
                 <h3>Подпишитесь на рассылку</h3>
                 <div class="podpiska-form">
-                    <div class="podpiska-email">
-                        <!-- <label for="mail" class="form-name">Почта</label> -->
-                        <input type="email" name="mail" id="mail">
-                    </div>
-                    <button class="podpiska-button">Подписаться</button>
+                <div class="podpiska-email">
+                    <input type="email" name="mail" id="mail">
                 </div>
-               
+                    <button class="podpiska-button">
+                        <div class="podpiska-flex">
+                        Подписаться
+                        <svg class="podpiska-icon">
+                            <use href="./images/symbol-defs-tu.svg#icon-icon-send"></use>
+                            </svg>
+                        </div>
+
+                        
+                    </button>
+                    
+                </div>          
             </div>
         </div>
     </footer>
-    <!-- <script>
-        (() => {
-                const refs = {
-                    openModalBtn: document.querySelector('[data-modal-open]'),
-                    closeModalBtn: document.querySelector('[data-modal-close]'),
-                    modal: document.querySelector('[data-modal]'),
-                };
-
-                refs.openModalBtn.addEventListener('click', toggleModal);
-                refs.closeModalBtn.addEventListener('click', toggleModal);
-
-                function toggleModal() {
-                    refs.modal.classList.toggle('is-hidden');
-                }
-            })();
-    </script> -->
     <script src="./js/modal.js"></script>
     
 </body>
