@@ -706,10 +706,28 @@ textarea {
 }
 .podpiska > h3 {
   margin-bottom: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
-.podpiska-email{
+.podpiska-email input {
   width: 358px;
-  h50
+  height: 50px;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+}
+.podpiska-form {
+  display: flex;
 }
 /* background: rgba(255, 255, 255, 0.1); */
 /*----------------------- партфолио радио кнопки------------------ */
